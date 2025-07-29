@@ -1,16 +1,16 @@
 {
-  "name": "exer_less",
+  "name": "boas-praticas",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "less": "less-watch-compiler ./source/styles ./build/styles",
+    "sass": "sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "less": "^4.4.0",
-    "less-watch-compiler": "^1.16.3"
+    "sass": "^1.89.2"
   }
 }
